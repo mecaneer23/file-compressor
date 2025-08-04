@@ -7,7 +7,7 @@ from argparse import ArgumentParser, Namespace
 from pathlib import Path
 
 
-class TypedNamespace(Namespace):
+class TypedNamespace(Namespace):  # pylint: disable=too-few-public-methods
     """Custom Namespace class to handle typed arguments."""
 
     input_file: Path
